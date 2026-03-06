@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Ngoc Dam Thi Bich</title>
+    <meta
+      name="description"
+      content="Contact page for official communication and technical support feedback."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">Ngoc Dam Thi Bich Studio</a>
+        <button
+          class="nav-toggle"
+          type="button"
+          data-menu-button
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Toggle navigation"
+        >
+          ☰
+        </button>
+        <nav class="site-nav" id="site-nav" data-nav>
+          <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="contact.html">Contact Us</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="terms.html">Terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <h1>Contact Us</h1>
+          <p class="section-intro">
+            Reach the developer through official channels or submit technical support feedback
+            for App Store related issues.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="grid">
+            <article class="card contact-card">
+              <img class="icon" src="assets/mail.svg" alt="Email icon" />
+              <h3>Official Email</h3>
+              <p>
+                For business communication, policy questions, and account level requests.
+              </p>
+              <p>
+                <a href="mailto:nguyentrunghien13323@gmail.com"
+                  >nguyentrunghien13323@gmail.com</a
+                >
+              </p>
+            </article>
+
+            <article class="card contact-card">
+              <img class="icon" src="assets/support.svg" alt="Support icon" />
+              <h3>Technical Support</h3>
+              <p>
+                For bug reports, app runtime problems, and support communication related to App
+                Store listing.
+              </p>
+              <p>
+                <a href="mailto:nguyentrunghien13323@maillittle.com"
+                  >nguyentrunghien13323@maillittle.com</a
+                >
+              </p>
+            </article>
+          </div>
+
+          <article class="card feedback">
+            <h2>Technical Support Feedback</h2>
+            <p>
+              Use this form to submit issue context. Messages are routed through your local
+              mail client for direct support follow-up.
+            </p>
+            <form
+              action="mailto:nguyentrunghien13323@maillittle.com"
+              method="post"
+              enctype="text/plain"
+            >
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" required />
+
+              <label for="email">Contact Email</label>
+              <input id="email" name="email" type="email" required />
+
+              <label for="subject">Issue Summary</label>
+              <input id="subject" name="subject" type="text" required />
+
+              <label for="details">Issue Details</label>
+              <textarea id="details" name="details" required></textarea>
+
+              <button class="btn" type="submit">Send Feedback</button>
+            </form>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span data-year></span> Ngoc Dam Thi Bich. All rights reserved.</p>
+        <p>Team ID: 32B6DWG9T5 | Developer ID: 7660cab2-d55b-4c9e-97b9-4db031c896b9</p>
+        <p>
+          Official Email: nguyentrunghien13323@gmail.com | Technical Support:
+          nguyentrunghien13323@maillittle.com
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
